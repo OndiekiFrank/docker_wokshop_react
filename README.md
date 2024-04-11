@@ -1,31 +1,4 @@
-# Containerize A React Applicationreact-app/
-│
-├── public/
-│ ├── index.html
-│ └── ...
-│
-├── src/
-│ ├── components/
-│ │ └── ...
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-│
-├── Dockerfile
-├── package.json
-└── ...
-
-markdown
-Copy code
-
-- `public/`: Contains static assets and the main HTML file.
-- `src/`: Contains the React application source code.
-- `Dockerfile`: Specifies the Docker image configuration.
-- `package.json`: Defines project dependencies and scripts.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+# Containerize A React Application
 
 This repository demonstrates how to containerize a React application using Docker.
 
